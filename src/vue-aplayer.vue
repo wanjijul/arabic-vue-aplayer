@@ -47,7 +47,7 @@
       </div>
     </div>
     <audio ref="audio"></audio>
-    <music-list
+    <music-list style="height:300px"
       :show="showList && !isMiniMode"
       :current-music="currentMusic"
       :music-list="musicList"

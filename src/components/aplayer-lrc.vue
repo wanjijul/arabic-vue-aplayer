@@ -4,7 +4,7 @@
       class="aplayer-lrc-contents"
       :style="transformStyle"
     >
-      <p
+      <p style="margin-top:4px"
         v-for="(line, index) of lrcLines"
         :key="index"
         :class="{ 'aplayer-lrc-current': index === currentLineIndex }"
@@ -48,8 +48,8 @@
       transformStyle () {
         // transform: translateY(0); -webkit-transform: translateY(0);
         return {
-          transform: `translateY(${-this.currentLineIndex * 16}px)`,
-          webkitTransform: `translateY(${-this.currentLineIndex * 16}px)`,
+          transform: `translateY(${-this.currentLineIndex * 24}px)`,
+          webkitTransform: `translateY(${-this.currentLineIndex * 24}px)`,
         }
       },
     },
@@ -104,7 +104,7 @@
     height: $lrc-height;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
 
     &:before {
       position: absolute;
@@ -139,8 +139,8 @@
     p {
       font-size: 18px;
       color: #666;
-      line-height: 16px;
-      height: 16px;
+      line-height: 20px;
+      height: 20px;
       padding: 0;
       margin: 0;
       transition: all 0.5s ease-out;

@@ -1,5 +1,5 @@
 <template>
-  <div class="aplayer-controller">
+  <div class="aplayer-controller" style="margin-bottom:6px">
     <v-progress
       :loadProgress="loadProgress"
       :playProgress="playProgress"

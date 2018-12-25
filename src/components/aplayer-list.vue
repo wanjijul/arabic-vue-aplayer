@@ -61,7 +61,7 @@
 <style lang="scss">
 
   .aplayer-list {
-    overflow: hidden;
+    overflow: scroll;
 
     &.slide-v-enter-active,
     &.slide-v-leave-active {
