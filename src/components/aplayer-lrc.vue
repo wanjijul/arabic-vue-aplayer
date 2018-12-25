@@ -137,7 +137,7 @@
     }
 
     p {
-      font-size: 12px;
+      font-size: 18px;
       color: #666;
       line-height: 16px;
       height: 16px;
